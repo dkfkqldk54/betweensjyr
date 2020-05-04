@@ -18,30 +18,99 @@
 a {
   text-decoration: none;
 }
-
-.saw {
-  color:gray;
+.upperline {
+  border-top:black 2px solid;
+  padding:10px;
+  margin:0px;
 }
-
+.anotherupperline {
+  border-top:black 2px solid;
+  padding:7px;
+  margin:0px;
+}
+.downline {
+  border-bottom:black 2px solid;
+  padding:10px;
+  margin:0px;
+}
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1 {
+  text-align: center;
+  left:100px;
+  right:100px;
+}
+.boxleft {
+  text-align: left;
+}
+.boxright {
+  text-align: right;
+}
+.leftspace {
+  border-right: 2px solid black;
+  width:1fr;
+  margin:0px;
+}
+.rightspace {
+  border-left: 2px solid black;
+  width:100px;
+  margin:0px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 310px 1fr;
+}
+.여림이성진이 {
+  padding: 7px;
+  font-size: 11px;
+}
+.처음만난날 {
+  font-size: 11px;
+}
+.일째 {
+  font-weight: bold;
+}
+.red {
+  color:red;
+}
+.orange {
+  color:orange;
+}
+.green{
+  color:green;
+}
+.bigger{
+  font-size: 20px;
+  font-weight: bolder;
+}
 </style>
 
 </head>
 <body>
+<div id="grid">
+  <span class=leftspace>   </span>
 
-  <h4>Between</h4>
-  <h2>141일째</h2>
-  <h3>여림이 ♥ 성진이</h3>
-  <p>
-  <img src="비트윈배사2.jpg" width="200" height="300">
-  </p>
+  <div>
+    <div class="upperline box1">12:06 카톡
+    &emsp;&emsp;&emsp;&emsp;&emsp;
+       LTE 95% 배터리</div>
+    <div class="anotherupperline box1 처음만난날">처음 만난 날</div>
+    <div class="box1 일째">153일째</div>
+    <div class="box1 여림이성진이">여림이<span class="orange">♥</span> <span class="red">♥</span> 성진이<span class="green">♥</span></div>
+    <img src="비트윈배사2.jpg" width="100%" height="400" class="main">
 
-  <ul>
-  <li><a href="betweenhome.HTML" class="saw">홈</a></li>
-  <li><a href="앨범.HTML"class="saw">앨범</a></li>
-  <li><a href="chatting.html">★</a></li>
-  <li><a href="알림.html">알림</a></li>
-  <li><a href="더보기.html">더보기</a></li>
-  </ul>
+    <div class="box1 downline"><a href="between.HTML">홈&emsp;&ensp;</a>
+    <a href="앨범.HTML">앨범&emsp;&ensp;</a>
+    <a href="chatting.html">★&emsp;&ensp;</a>
+    <a href="알림.html">알림&emsp;&ensp;</a>
+    <a href="더보기.html">더보기</a></div>
 
+    <div class="box1 downline bigger">||| &emsp;&emsp;&emsp;□ &emsp;&emsp;&emsp;<</div>
+  </div>
+  <span class=rightspace>   </span>
+</div>
 </body>
 </html>
