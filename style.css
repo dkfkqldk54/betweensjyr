@@ -1,0 +1,79 @@
+<style>
+
+a {
+  text-decoration: none;
+}
+.upperline {
+  border-top:black 2px solid;
+  padding:10px;
+  margin:0px;
+}
+.anotherupperline {
+  border-top:black 2px solid;
+  padding:7px;
+  margin:0px;
+}
+.downline {
+  border-bottom:black 2px solid;
+  padding:10px;
+  margin:0px;
+}
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1 {
+  text-align: center;
+  left:100px;
+  right:100px;
+}
+.boxleft {
+  text-align: left;
+}
+.boxright {
+  text-align: right;
+}
+.leftspace {
+  border-right: 2px solid black;
+  width:1fr;
+  margin:0px;
+}
+.rightspace {
+  border-left: 2px solid black;
+  width:100px;
+  margin:0px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 310px 1fr;
+}
+.여림이성진이 {
+  padding: 7px;
+  font-size: 11px;
+}
+.처음만난날 {
+  font-size: 11px;
+}
+.일째 {
+  font-weight: bold;
+}
+.red {
+  color:red;
+}
+.orange {
+  color:orange;
+}
+.green{
+  color:green;
+}
+.bigger{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.hardpadding {
+  padding: 230px 0px;
+}
+
+</style>
